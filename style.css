@@ -1,3 +1,11 @@
+a{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -122,6 +130,11 @@ a:hover {
 
 .tentang img {
     max-width: 100%;
+    border-radius: 1vw;
+}
+
+.tentang img:hover {
+    opacity: 0.8;
 }
 
 .tentang-teks {
@@ -130,19 +143,32 @@ a:hover {
     padding-right: 9vw;
 }
 
-.tentang .btn {
+.tentang .btn, .kkn .btn {
     border-radius: 10vw;
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
     margin-top: 8vw;
+    letter-spacing: 3px;
 }
 
 .carousel img {
     height: 60vw;
 }
 
+.kkn{
+    background-image: url(img/kkn.png);
+    background-size: 100% 100%;
+    height: 60vw;
+    padding: 15vw;
+}
+
+.kkn p{
+    font-size: 2vw;
+    line-height: 2.3vw;
+    text-align: justify;
+}
 footer {
     margin-top: -6px;
     color: white;
