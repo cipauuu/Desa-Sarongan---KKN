@@ -120,26 +120,26 @@ a:hover {
     }
 }
 
-.tentang img{
+.tentang img {
     max-width: 100%;
 }
 
-.tentang-teks{
+.tentang-teks {
     text-align: justify;
     padding-left: 5vw;
     padding-right: 9vw;
 }
 
-.tentang .btn{
+.tentang .btn {
     border-radius: 10vw;
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
-    margin-top:8vw;
+    margin-top: 8vw;
 }
 
-.carousel img{
+.carousel img {
     height: 60vw;
 }
 
