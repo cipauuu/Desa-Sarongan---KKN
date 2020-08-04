@@ -1,8 +1,8 @@
-a{
+a {
     color: white;
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
@@ -143,7 +143,8 @@ a:hover {
     padding-right: 9vw;
 }
 
-.tentang .btn, .kkn .btn {
+.tentang .btn,
+.kkn .btn {
     border-radius: 10vw;
     padding-left: 3vw;
     padding-right: 3vw;
@@ -153,22 +154,33 @@ a:hover {
     letter-spacing: 3px;
 }
 
-.carousel img {
-    height: 60vw;
+.parallax {
+    background-image: url("img/parallax.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.kkn{
+.pariwisata h1 {
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.75);
+}
+
+.kkn {
     background-image: url(img/kkn.png);
     background-size: 100% 100%;
     height: 60vw;
     padding: 15vw;
 }
 
-.kkn p{
+.kkn p {
     font-size: 2vw;
     line-height: 2.3vw;
     text-align: justify;
 }
+
+
 footer {
     margin-top: -6px;
     color: white;
