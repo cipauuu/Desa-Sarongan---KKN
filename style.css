@@ -4,27 +4,23 @@ a {
 
 a:hover {
     color: white;
-}
-
-a:hover {
     text-decoration: none;
 }
 
-.nav-item {
-    padding-left: 2vw;
-    padding-right: 2vw;
+.nav-home{
+    flex-direction:row;
 }
 
-.nav-link {
-    color: white;
+.nav-home a {
+    padding-left: 2vw;
+    padding-right: 2vw;color: white;
     font-weight: bolder;
     transition: 1s;
 }
 
-.nav-link:hover {
-    color: white;
+.nav-home a:hover {
+    margin-bottom: -50px;
     font-size: 1.5vw;
-    padding: 0;
 }
 
 .nav-head {
@@ -167,6 +163,16 @@ a:hover {
 
 .pariwisata h1 {
     text-shadow: 3px 3px rgba(0, 0, 0, 0.75);
+}
+
+.pariwisata .card-img, .pariwisata .card-img-top{
+    border-top-left-radius:1vw;
+    border-top-right-radius:1vw;
+}
+
+.pariwisata .card{
+    border: 0;
+    border-radius:1vw;
 }
 
 .kkn {
