@@ -182,8 +182,10 @@ a:hover {
     text-align: justify;
 }
 
+.map-desa{
+    margin-bottom: -7px!important;
+}
 
 footer {
-    margin-top: -6px;
     color: white;
 }
