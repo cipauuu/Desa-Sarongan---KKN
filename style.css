@@ -197,12 +197,16 @@ footer {
     color: white;
 }
 
+.nav-atas li{
+    margin-right: 2vw;
+}
+
 .nav-atas .navbar-nav a{
     color: lightgray !important;
 }
 
 .nav-atas .navbar-nav a:hover{
-    color: w !important;
+    color: white !important;
 }
 
 .nav-atas .navbar-nav .active a{
