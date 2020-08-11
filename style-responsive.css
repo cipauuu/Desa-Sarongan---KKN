@@ -186,5 +186,9 @@
     .berita .konten-berita{
         text-align: justify;
     }
+    
+    .pagination{
+        font-size: 3vw;
+    }
 
 }
