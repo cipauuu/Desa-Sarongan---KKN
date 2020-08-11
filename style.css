@@ -7,13 +7,14 @@ a:hover {
     text-decoration: none;
 }
 
-.nav-home{
-    flex-direction:row;
+.nav-home {
+    flex-direction: row;
 }
 
 .nav-home a {
     padding-left: 2vw;
-    padding-right: 2vw;color: white;
+    padding-right: 2vw;
+    color: white;
     font-weight: bolder;
     transition: 1s;
 }
@@ -166,14 +167,15 @@ a:hover {
     text-shadow: 3px 3px rgba(0, 0, 0, 0.75);
 }
 
-.pariwisata .card-img, .pariwisata .card-img-top{
-    border-top-left-radius:1vw;
-    border-top-right-radius:1vw;
+.pariwisata .card-img,
+.pariwisata .card-img-top {
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
 }
 
-.pariwisata .card{
+.pariwisata .card {
     border: 0;
-    border-radius:1vw;
+    border-radius: 1vw;
 }
 
 .kkn {
@@ -189,28 +191,39 @@ a:hover {
     text-align: justify;
 }
 
-.map-desa{
-    margin-bottom: -7px!important;
+.map-desa {
+    margin-bottom: -7px !important;
 }
 
 footer {
     color: white;
 }
 
-.nav-atas li{
+.nav-atas li {
     margin-right: 2vw;
 }
 
-.nav-atas .navbar-nav a{
+.nav-atas .navbar-nav a {
     color: lightgray !important;
 }
 
-.nav-atas .navbar-nav a:hover{
+.nav-atas .navbar-nav a:hover {
     color: white !important;
 }
 
-.nav-atas .navbar-nav .active a{
+.nav-atas .navbar-nav .active a {
     color: white !important;
 }
 
+.page-link {
+    color: #17a2b8;
+}
 
+.page-link:hover {
+    color: #2D7581;
+}
+
+.page-item.active .page-link {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}

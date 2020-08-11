@@ -1,0 +1,190 @@
+@media (max-width: 991.98px) {
+    .nav-home a:hover {
+        font-size: 2.3vw;
+    }
+
+    .tentang-teks {
+        padding-top: 0 !important;
+    }
+
+    .parallax .pariwisata {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .kkn p {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+
+    .carousel-inner img {
+        height: 350px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-home a:hover {
+        font-size: 3vw;
+    }
+
+    .tentang-teks {
+        padding-top: 3vw !important;
+    }
+
+    .tentang-teks .btn {
+        margin-top: 2vw;
+    }
+
+    .parallax .pariwisata {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .parallax .card {
+        margin-bottom: 5vw;
+    }
+
+    .kkn {
+        padding: 4vw;
+        height: 50vw;
+    }
+
+    .kkn p {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+
+    .kkn .btn {
+        margin-top: 3vw;
+    }
+
+    .map .map-2 {
+        text-align: left !important;
+    }
+
+    .map img {
+        margin-bottom: 5vw;
+    }
+
+    .isi {
+        max-width: 100%;
+    }
+
+    .isi h1 {
+        font-size: 5vw;
+    }
+
+    .carousel-inner img {
+        height: 350px !important;
+    }
+
+    .berita img {
+        margin-bottom: 2vw;
+    }
+
+    .berita .media {
+        display: block;
+    }
+    
+    .berita .konten-berita{
+        text-align: justify;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .nav-home a:hover {
+        font-size: 4.5vw;
+    }
+
+    .header .desa {
+        padding-top: 7vw;
+        font-size: 8vw;
+    }
+
+    .header .sarongan {
+        font-size: 12vw;
+    }
+
+    .tentang-teks {
+        padding-top: 3vw !important;
+    }
+
+    .tentang-teks .btn {
+        margin-top: 2vw;
+    }
+
+    .parallax .pariwisata {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .parallax .semua {
+        float: left
+    }
+
+    .parallax .card {
+        margin-bottom: 5vw;
+    }
+
+    .kkn {
+        padding: 6vw;
+        height: 80vw;
+    }
+
+    .kkn p {
+        font-size: 5.5vw;
+        line-height: 5.5vw;
+    }
+
+    .kkn .btn {
+        margin-top: 3vw;
+    }
+
+    footer img.mr-2 {
+        margin-bottom: 1vw;
+    }
+
+    .map .map-2 {
+        text-align: left !important;
+    }
+
+    .map img {
+        margin-bottom: 7vw;
+    }
+
+    .isi {
+        max-width: 100%;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+
+    .isi h1 {
+        font-size: 6vw;
+    }
+
+    .carousel-inner img {
+        height: 250px !important;
+    }
+
+    .berita img {
+        margin-bottom: 2vw;
+    }
+
+    .berita .media {
+        display: block;
+    }
+    
+    .berita .konten-berita{
+        text-align: justify;
+    }
+
+}
